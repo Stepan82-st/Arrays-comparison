@@ -26,7 +26,7 @@ if (n % 3 === 0){
         }
       }
  }
- return indexElementMatrix;  
+ return indexElementMatrix.join('->');  
 }else {console.log('ne % 3, because ne to'); 
 }  
 }  
